@@ -1,0 +1,35 @@
+header{
+    height: 2.58rem;
+    background: white;
+    margin-top: 0.11rem;
+    display: inline-block;
+    width: 100%;
+}
+header .aipt{
+	height: 0.84rem;
+	width: 7.22rem;
+	border:none;
+	border-bottom: 0.02rem solid #ccc;
+	outline-style: none;
+	float: right;
+	position: relative;
+}
+header .afrom img{
+	height:  0.34rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+main>div{
+	width: 7rem;
+	height: 2.58rem;
+	margin: 0 auto;
+}
+main>div>div{
+	width: 3.2rem;
+	height: 2.58rem;
+	background: pink;
+}
+main>div>div:last-child{
+	margin-left: 0.6rem;
+}

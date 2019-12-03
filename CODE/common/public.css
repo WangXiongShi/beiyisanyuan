@@ -1,0 +1,21 @@
+*{margin: 0;padding:0;}
+.clearFix::after{content: '';display: block;clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+ul,ol{list-style: none;}
+a{color: black;}
+i{font-style: normal;}
+.wrap{
+    width: 7.5rem;
+    background: #f0f0f6;
+}
+footer{
+    height: 1.2rem;
+    font-size: 0.28rem;
+    text-align: center;
+}
+footer p{
+    margin-top: 0.65rem;
+    display: inline-block;
+    color: #adacac;
+}
